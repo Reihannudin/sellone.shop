@@ -1,17 +1,9 @@
 import {Link, useNavigate} from "react-router-dom";
 import React, {useEffect, useState} from "react";
-import api from "../../config/api";
+// import api from "../../config/api";
 import http from "../../config/http";
-import express from "express";
 
 function Profile() {
-
-    const express = require('express');
-    const cors = require('cors');
-    const app = express();
-
-
-    app.use(cors());
 
     const [users, setUsers] = useState([]);
 
